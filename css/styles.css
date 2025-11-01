@@ -17,7 +17,7 @@
 html, body {
     margin: 0;
     min-height: 100vh;
-    background: linear-gradient(180deg, #01020a 0%, #041022 100%);
+    background: #041022;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: #e9f7fb;
@@ -25,9 +25,11 @@ html, body {
 
 
 .container {
-    max-width: 1100px; /* Main layout container limits width */
-    margin: 24px auto; /* Center horizontally */
+    max-width: 1100px;
+    margin: 24px auto;
     padding: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 header {
@@ -131,6 +133,7 @@ nav select {
     background: transparent;
     border: 1px solid var(--glass-border); /* Secondary (outlined) buttons */
     color: var(--muted);
+    text-decoration: none;
 }
 
 .accent-line {
@@ -138,7 +141,7 @@ nav select {
     border-radius: 4px;
     background: linear-gradient(90deg,var(--accent),var(--accent-2)); /* Decorative line in intro */
     box-shadow: 0 8px 40px rgba(124,247,255,0.06);
-    margin-top: 14px;
+    margin-top: 20px;
 }
 
 .visual {
@@ -278,11 +281,12 @@ footer .small {
     }
 }
 
-@media (max-width:520px) {
+@media (max-width: 520px) {
     .container {
-        padding: 14px; /* Reduce padding on small screens */
-    }
-    nav a {
-        display: none; /* Hide navigation links, keep language select */
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 14px;
+        padding-bottom: 14px;
     }
 }
+
