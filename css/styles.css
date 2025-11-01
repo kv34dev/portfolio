@@ -290,3 +290,50 @@ footer .small {
     }
 }
 
+@media (max-width: 900px) {
+    .hero {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    #profileImg {
+        width: 100%;
+        height: auto;
+        max-width: 280px;
+        max-height: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-card form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+@media (max-width: 450px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hero {
+        margin: 0;
+        width: 100%;
+    }
+
+    #profileImg {
+        max-width: 220px;
+        max-height: 300px;
+    }
+
+    .cta {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .cta .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
