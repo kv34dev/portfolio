@@ -235,7 +235,7 @@ nav select {
     display: flex;
     gap: 10px;
     width: 100%;
-    max-width: 720px; /* Contact form layout */
+    max-width: 720px;
 }
 
 .contact-card input {
@@ -244,8 +244,21 @@ nav select {
     border-radius: 8px;
     border: 1px solid var(--glass-border);
     background: transparent;
-    color: inherit; /* Form inputs */
+    color: inherit;
 }
+
+@media (max-width: 600px) {
+    .contact-card form {
+        flex-direction: column;
+        align-items: stretch; 
+    }
+
+    .contact-card input,
+    .contact-card button {
+        width: 100%;
+    }
+}
+
 
 footer .small {
     color: var(--muted);
