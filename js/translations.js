@@ -4,16 +4,29 @@ const translations = {
         subtitle: "Web & iOS Developer",
 
         hero_title: "Hi there, I'm Vladimir!",
-        hero_desc: "I'm a fullstack Web & iOS developer. I build fast, responsive interfaces for web and iOS. Clean architecture, attention to detail, modern UI.",
+        hero_desc: "I'm a fullstack Web & iOS developer, always open to new projects, collaborations, internships, and partnerships.",
 
         download_cv: "Download CV",
         view_projects: "Follow me on GitHub",
 
         about_title: "About Me",
-        about_desc: "I am an iOS developer since 2021 and a web developer since 2022, with hands-on experience in Swift, SwiftUI, HTML, CSS, JavaScript, Python, and PineScript. My projects include several iOS applications, a Python-based game, and my personal website, all of which can be viewed on my GitHub.\n\nIn addition to development, I am an active Forex and Crypto trader since 2022, applying technical analysis and my own trading strategies. This experience has strengthened my analytical thinking and problem-solving skills, which I bring into software development.\n\nI am currently seeking opportunities in IT, where I can contribute as a developer creating iOS apps, websites, PineScript strategies, and Python projects. I am open to learning new skills and ready to take on internships or training in these areas.",
+        about_desc1: "Hey 👋 My name is Vladimir, and I’m a full-stack developer specializing in Web, iOS, and Python development 💻📱. I love building fast, clean and meaningful products — from backend logic to smooth user interfaces. I’m always learning, experimenting, and turning ideas into something real. I enjoy working in teams as much as independently, and I'm constantly looking for meaningful opportunities to grow and contribute.",
+        about_desc2: "I live in Spain 🇪🇸, speak three languages — English, Russian, and Spanish and I’m currently learning French because I believe language opens new worlds.",
+        about_desc3: "💹 I’m also involved in trading forex and cryptocurrency. I develop my own trading strategies in PineScript to automate and refine my approach to the markets.",
 
         projects_title: "Projects",
+        proj_desc1: "Mobile app with offline sync and clean UI.",
+        proj_desc2: "Indie game prototype.",
+        proj_desc3: "Automated trading strategy for TradingView.",
+        proj_desc4: "Responsive and modern websites.",
+        web_sites: "Web Sites • HTML, CSS, JavaScript",
+
         tech_dist: "Experience",
+        exp_desc1: "Back in 2020, my programming journey began. I completed a Python game development course and built my first game — you can still download and try it on my GitHub.",
+        exp_desc2: "In 2021, I started learning Swift, and after a lot of practice I built a few apps. One of them is Planner, which is still in development 📱",
+        exp_desc3: "Since 2022, I’ve been working as a fullstack web developer, creating websites for clients and for myself 🌍",
+        exp_desc4: "Alongside development, I’m actively involved in trading, mainly forex and metals. I design and code my own PineScript strategies for TradingView to automate trading and increase profitability 📈",
+
         exp_by_year: "Experience by years",
         skill_bars: "Skill bars",
 
@@ -45,7 +58,6 @@ const translations = {
         send: "Enviar"
     },
 
-    // ---------------- Русский ----------------
     ru: {
         title: "Владимир Кудряшов",
         subtitle: "Веб и iOS разработчик",
@@ -73,7 +85,7 @@ const translations = {
         title: "Vladimir Kudryashov",
         subtitle: "Développeur Web & iOS",
 
-        hero_title: "Salut ! Moi c’est Vladimir",
+        hero_title: "Salut! Moi c’est Vladimir",
         hero_desc: "Je suis développeur fullstack Web & iOS. Je crée des interfaces rapides et réactives pour le web et iOS. Architecture propre, souci du détail, design moderne.",
 
         download_cv: "Télécharger CV",
