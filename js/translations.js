@@ -29,6 +29,7 @@ const translations = {
 
         exp_by_year: "Experience by years",
         skill_bars: "Skill bars",
+        skills_desc: "These skills were built through real-world projects, problem solving, and a deep interest in creating clean and reliable software. I focus on writing structured code, learning modern technologies, and improving every day to turn ideas into well-designed digital experiences.",
 
         contact_title: "Contact",
         contact_desc: "Open to new projects — write: ",
@@ -65,6 +66,7 @@ const translations = {
 
         exp_by_year: "Experiencia por años",
         skill_bars: "Nivel de habilidades",
+        skills_desc: "Estas habilidades se formaron a través de proyectos reales, resolución de problemas y un profundo interés en crear software limpio y confiable. Me enfoco en escribir código estructurado, aprender tecnologías modernas y mejorar cada día para convertir ideas en experiencias digitales bien diseñadas.",
 
         contact_title: "Contacto",
         contact_desc: "Abierto a nuevos proyectos — escribe a: ",
@@ -101,6 +103,7 @@ const translations = {
 
         exp_by_year: "Опыт по годам",
         skill_bars: "Уровень навыков",
+        skills_desc: "Эти навыки сформированы через реальные проекты, решение задач и глубокий интерес к созданию чистого и надежного программного обеспечения. Я сосредоточен на написании структурированного кода, изучении современных технологий и ежедневном улучшении, превращая идеи в продуманные цифровые продукты.",
 
         contact_title: "Контакты",
         contact_desc: "Открыт для новых проектов — пишите: ",
@@ -137,6 +140,8 @@ const translations = {
 
         exp_by_year: "Expérience par années",
         skill_bars: "Barres de compétences",
+        skills_desc: "Ces compétences se sont développées à travers des projets concrets, la résolution de problèmes et un profond intérêt pour la création de logiciels fiables et bien structurés. Je me concentre sur l’écriture d’un code structuré, l’apprentissage des technologies modernes et l’amélioration quotidienne pour transformer des idées en expériences digitales bien conçues.",
+
 
         contact_title: "Contact",
         contact_desc: "Ouvert aux nouveaux projets — écrivez-moi : ",
@@ -173,6 +178,7 @@ const translations = {
 
         exp_by_year: "Erfahrung nach Jahren",
         skill_bars: "Fähigkeiten",
+        skills_desc: "Diese Fähigkeiten entstanden durch reale Projekte, Problemlösungen und ein tiefes Interesse an der Entwicklung sauberer und zuverlässiger Software. Ich konzentriere mich darauf, strukturierten Code zu schreiben, moderne Technologien zu lernen und mich jeden Tag weiterzuentwickeln, um Ideen in durchdachte digitale Erlebnisse zu verwandeln.",
 
         contact_title: "Kontakt",
         contact_desc: "Offen für neue Projekte — schreib mir: ",
@@ -209,6 +215,7 @@ const translations = {
 
         exp_by_year: "按年份经验",
         skill_bars: "技能条",
+        skills_desc: "这些技能源自真实项目、问题解决以及对创建干净可靠软件的热情。我专注于编写结构化代码、学习现代技术，并每天进步，将想法转化为设计完善的数字体验。",
 
         contact_title: "联系",
         contact_desc: "开放新项目 — 联系我: ",
@@ -245,9 +252,47 @@ const translations = {
 
         exp_by_year: "年別経験",
         skill_bars: "スキルレベル",
+        skills_desc: "これらのスキルは、実際のプロジェクトや問題解決、そしてクリーンで信頼できるソフトウェアを作ることへの強い関心から培われました。構造的なコードを書くこと、最新技術を学ぶこと、そして日々成長しながら、アイデアを洗練されたデジタル体験へと形にしています。",
 
         contact_title: "連絡先",
         contact_desc: "新しいプロジェクト歓迎 — ご連絡ください: ",
         send: "送信"
+    },
+
+    ar: {
+        title: "فلاديمير كودرياشوف",
+        subtitle: "مطور ويب و iOS",
+
+        hero_title: "مرحباً! أنا فلاديمير",
+        hero_desc: "أنا مطور ويب و iOS بدوام كامل (Fullstack)، منفتح على المشاريع الجديدة، التعاون، التدريب، والشراكات.",
+
+        download_cv: "تحميل السيرة الذاتية",
+        view_projects: "تابعني على GitHub",
+
+        about_title: "نبذة عني",
+        about_desc1: "مرحباً 👋 اسمي فلاديمير، وأنا مطور Fullstack متخصص في تطوير الويب و iOS و Python 💻📱. أحب بناء منتجات سريعة، نظيفة، وذات معنى — من منطق الخلفية إلى واجهات المستخدم السلسة. أتعلم باستمرار، أجرّب، وأحوّل الأفكار إلى واقع.",
+        about_desc2: "أعيش في إسبانيا 🇪🇸، وأتحدث الإنجليزية، الروسية والإسبانية، وأتعلّم حالياً الفرنسية لأنني أؤمن أن اللغات تفتح عوالم جديدة.",
+        about_desc3: "💹 كما أنني أعمل في تداول الفوركس والعملات الرقمية. أطور استراتيجياتي الخاصة باستخدام PineScript لأتمتة التداول وتحسين نتائجه.",
+
+        projects_title: "المشاريع",
+        proj_desc1: "تطبيق جوال يدعم المزامنة بدون إنترنت وواجهة نظيفة.",
+        proj_desc2: "نموذج أولي للعبة مستقلة (Indie).",
+        proj_desc3: "استراتيجية تداول آلية على منصة TradingView.",
+        proj_desc4: "مواقع ويب حديثة ومتجاوبة.",
+        web_sites: "مواقع ويب • HTML, CSS, JavaScript",
+
+        tech_dist: "الخبرة",
+        exp_desc1: "بدأت رحلتي في البرمجة عام 2020. أنهيت دورة في تطوير الألعاب باستخدام Python وبنيت أول لعبة لي — يمكنك تحميلها من GitHub.",
+        exp_desc2: "في عام 2021 بدأت تعلّم Swift، وبعد الكثير من التدريب طوّرت عدة تطبيقات. أحدها هو Planner، ولا يزال قيد التطوير 📱",
+        exp_desc3: "منذ 2022 أعمل كمطور ويب Fullstack، أبني مواقع للعملاء ولنفسى أيضًا 🌍",
+        exp_desc4: "إلى جانب التطوير، أنا نشط في مجال التداول — خصوصاً الفوركس والمعادن. أنشئ وأبرمج استراتيجياتي الخاصة باستخدام PineScript على TradingView 📈",
+
+        exp_by_year: "الخبرة حسب السنوات",
+        skill_bars: "مستوى المهارات",
+        skills_desc: "تم بناء هذه المهارات من خلال مشاريع واقعية، وحل المشكلات، وشغف عميق بإنشاء برمجيات نظيفة وموثوقة. أركز على كتابة كود منظم، وتعلم التقنيات الحديثة، والتطور يوميًا لتحويل الأفكار إلى تجارب رقمية مصممة بعناية.",
+
+        contact_title: "تواصل معي",
+        contact_desc: "مستعد للمشاريع الجديدة — تواصل عبر: ",
+        send: "إرسال"
     }
 };
