@@ -229,8 +229,38 @@ nav select {
     display: block;
     height: 100%;
     border-radius: 99px;
-    background: linear-gradient(90deg,var(--accent),var(--accent-2)); /* Filled skill bar */
 }
+
+/* Swift – red */
+.skill.swift .bar > i {
+    background: #ff3b3b; /* red */
+}
+
+/* HTML – orange */
+.skill.html .bar > i {
+    background: #ff7f00; /* orange */
+}
+
+/* CSS – violette */
+.skill.css .bar > i {
+    background: #7851A9; /* violette */
+}
+
+/* JavaScript – yellow */
+.skill.js .bar > i {
+    background: #ffd500; /* yellow */
+}
+
+/* Python – deep blue */
+.skill.python .bar > i {
+    background: #4B8BBE; /* blue (deep) */
+}
+
+/* PineScript – green */
+.skill.pine .bar > i {
+    background: #34c759; /* green */
+}
+
 
 .contact-card {
     margin-top: 18px;
@@ -343,3 +373,5 @@ footer .small {
         text-align: center;
     }
 }
+
+
