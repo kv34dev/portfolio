@@ -69,6 +69,12 @@ header {
     font-size: 13px; /* Subtitle in header */
 }
 
+h4 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+
+}
+
 nav {
     display: flex;
     gap: 12px;
