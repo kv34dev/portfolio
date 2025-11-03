@@ -14,7 +14,7 @@ const translations = {
         about_desc2: "I live in Spain 🇪🇸, speak three languages — English, Russian, and Spanish and I’m currently learning French because I believe language opens new worlds.",
         about_desc3: "💹 I’m also involved in trading forex and cryptocurrency. I develop my own trading strategies in PineScript to automate and refine my approach to the markets.",
 
-        projects_title: "Projects",
+        projects_title: "Featured projects",
         proj_desc1: "Mobile app with offline sync and clean UI.",
         proj_desc2: "Indie game prototype.",
         proj_desc3: "Automated trading strategy for TradingView.",
@@ -51,7 +51,7 @@ const translations = {
         about_desc2: "Vivo en España 🇪🇸, hablo inglés, ruso y español, y actualmente estoy aprendiendo francés porque creo que los idiomas abren nuevos mundos.",
         about_desc3: "💹 También me dedico al trading de forex y criptomonedas. Desarrollo mis propias estrategias en PineScript para automatizar y mejorar mi enfoque en los mercados.",
 
-        projects_title: "Proyectos",
+        projects_title: "Proyectos destacados",
         proj_desc1: "Aplicación móvil con sincronización offline y diseño limpio.",
         proj_desc2: "Prototipo de juego indie.",
         proj_desc3: "Estrategia de trading automatizada para TradingView.",
@@ -88,7 +88,7 @@ const translations = {
         about_desc2: "Живу в Испании 🇪🇸, свободно говорю на английском, русском и испанском, а сейчас изучаю французский, потому что языки открывают новые горизонты.",
         about_desc3: "💹 Также я занимаюсь трейдингом на Forex и криптовалютах. Разрабатываю собственные стратегии на PineScript, чтобы автоматизировать торговлю и сделать её эффективнее.",
 
-        projects_title: "Проекты",
+        projects_title: "Основные проекты",
         proj_desc1: "Мобильное приложение с офлайн-синхронизацией и минималистичным интерфейсом.",
         proj_desc2: "Прототип инди-игры.",
         proj_desc3: "Автоматизированная стратегия для TradingView.",
@@ -125,7 +125,7 @@ const translations = {
         about_desc2: "Je vis en Espagne 🇪🇸, je parle anglais, russe et espagnol, et j’apprends actuellement le français car je pense que les langues ouvrent de nouveaux mondes.",
         about_desc3: "💹 Je fais également du trading Forex et crypto. Je développe mes propres stratégies en PineScript pour automatiser et améliorer mon approche des marchés.",
 
-        projects_title: "Projets",
+        projects_title: "Projets phares",
         proj_desc1: "Application mobile avec synchronisation hors-ligne et interface épurée.",
         proj_desc2: "Prototype de jeu indie.",
         proj_desc3: "Stratégie de trading automatisée pour TradingView.",
@@ -163,7 +163,7 @@ const translations = {
         about_desc2: "Ich lebe in Spanien 🇪🇸, spreche Englisch, Russisch und Spanisch und lerne aktuell Französisch, weil Sprachen neue Welten eröffnen.",
         about_desc3: "💹 Außerdem beschäftige ich mich mit Forex- und Kryptohandel. Ich entwickle eigene Handelsstrategien in PineScript, um meinen Ansatz zu automatisieren und zu verbessern.",
 
-        projects_title: "Projekte",
+        projects_title: "Ausgewählte Projekte",
         proj_desc1: "Mobile App mit Offline-Synchronisierung und cleanem UI.",
         proj_desc2: "Indie-Spiel-Prototyp.",
         proj_desc3: "Automatisierte Trading-Strategie für TradingView.",
@@ -200,7 +200,7 @@ const translations = {
         about_desc2: "我住在西班牙 🇪🇸，会说英语、俄语和西班牙语，目前正在学习法语，因为我相信语言能打开新的世界。",
         about_desc3: "💹 我也从事外汇和加密货币交易，并使用 PineScript 编写自己的交易策略，实现自动化与优化。",
 
-        projects_title: "项目",
+        projects_title: "精选项目",
         proj_desc1: "支持离线同步的移动应用，界面简洁。",
         proj_desc2: "独立游戏原型。",
         proj_desc3: "TradingView 自动化交易策略。",
@@ -237,7 +237,7 @@ const translations = {
         about_desc2: "スペイン 🇪🇸 在住で、英語・ロシア語・スペイン語を話します。現在はフランス語も勉強中です。言語は新しい世界への扉だと思っています。",
         about_desc3: "💹 また、FX と暗号資産のトレーディングも行っています。PineScript を使って独自の自動売買戦略を開発しています。",
 
-        projects_title: "プロジェクト",
+        projects_title: "注目プロジェクト",
         proj_desc1: "オフライン同期対応のモバイルアプリ。",
         proj_desc2: "インディーゲームのプロトタイプ。",
         proj_desc3: "TradingView 用自動売買戦略。",
@@ -274,7 +274,7 @@ const translations = {
         about_desc2: "أعيش في إسبانيا 🇪🇸، وأتحدث الإنجليزية، الروسية والإسبانية، وأتعلّم حالياً الفرنسية لأنني أؤمن أن اللغات تفتح عوالم جديدة.",
         about_desc3: "💹 كما أنني أعمل في تداول الفوركس والعملات الرقمية. أطور استراتيجياتي الخاصة باستخدام PineScript لأتمتة التداول وتحسين نتائجه.",
 
-        projects_title: "المشاريع",
+        projects_title: "المشاريع المميزة",
         proj_desc1: "تطبيق جوال يدعم المزامنة بدون إنترنت وواجهة نظيفة.",
         proj_desc2: "نموذج أولي للعبة مستقلة (Indie).",
         proj_desc3: "استراتيجية تداول آلية على منصة TradingView.",
