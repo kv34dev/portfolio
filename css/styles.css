@@ -97,9 +97,25 @@ nav select {
 
 .hero {
     display: grid;
-    grid-template-columns: 1fr 360px; /* Left: intro text, Right: cube/profile image */
+    grid-template-columns: 1fr 360px;
     gap: 18px;
-    align-items: start;
+    align-items: stretch;
+}
+
+.card.intro, 
+.card.visual {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card.visual {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
 }
 
 .card {
@@ -108,6 +124,13 @@ nav select {
     padding: 18px;
     border: 1px solid var(--glass-border);
     backdrop-filter: blur(6px); /* Soft blur effect */
+}
+
+.visual {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro h2 {
@@ -151,19 +174,16 @@ nav select {
     margin-top: 20px;
 }
 
-.visual {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #profileImg {
-    width: 320px;
-    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
     object-fit: cover;
-    max-width: none;
-    max-height: none;
     border-radius: 8px;
 }
 
@@ -348,11 +368,11 @@ footer .small {
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
     .hero {
         grid-template-columns: 1fr;
-        width: 100%;
     }
+}
 
     #profileImg {
         width: 100%;
