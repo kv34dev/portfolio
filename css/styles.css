@@ -133,6 +133,7 @@ nav select {
     color: #021;
     font-weight: 700;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn.ghost {
