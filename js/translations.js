@@ -6,7 +6,7 @@ const translations = {
         hero_title: "Hi there, I'm Vladimir!",
         hero_desc: "I'm a fullstack Web & iOS developer, always open to new projects, collaborations, internships, and partnerships.",
 
-        download_cv: "Download CV",
+        download_cv: "Visit my LinkedIn",
         view_projects: "Follow me on GitHub",
 
         about_title: "About Me",
@@ -43,7 +43,7 @@ const translations = {
         hero_title: "¡Hola! Soy Vladimir",
         hero_desc: "Soy desarrollador fullstack Web & iOS, siempre abierto a nuevos proyectos, colaboraciones, prácticas y asociaciones.",
 
-        download_cv: "Descargar CV",
+        download_cv: "Visita mi LinkedIn",
         view_projects: "Sígueme en GitHub",
 
         about_title: "Sobre mí",
@@ -80,8 +80,8 @@ const translations = {
         hero_title: "Привет! Я Владимир",
         hero_desc: "Я fullstack разработчик Web и iOS, открыт для новых проектов, сотрудничества, стажировок и партнёрств.",
 
-        download_cv: "Скачать резюме",
-        view_projects: "Мой GitHub",
+        download_cv: "Посетите мой LinkedIn",
+        view_projects: "Подпишитесь на мой GitHub",
 
         about_title: "Обо мне",
         about_desc1: "Привет 👋 Меня зовут Владимир. Я full-stack разработчик в области Web, iOS и Python 💻📱. Люблю создавать быстрые, чистые и полезные продукты — от серверной логики до плавных интерфейсов. Постоянно учусь, пробую новое и превращаю идеи в работающие проекты. Командная работа мне нравится так же, как и самостоятельная, и я всегда ищу возможности развиваться и приносить пользу.",
@@ -117,8 +117,8 @@ const translations = {
         hero_title: "Salut ! Moi c’est Vladimir",
         hero_desc: "Je suis développeur fullstack Web & iOS, ouvert aux nouveaux projets, collaborations, stages et partenariats.",
 
-        download_cv: "Télécharger le CV",
-        view_projects: "Voir mon GitHub",
+        download_cv: "Visitez mon LinkedIn",
+        view_projects: "Suivez-moi sur GitHub",
 
         about_title: "À propos de moi",
         about_desc1: "Salut 👋 Je m’appelle Vladimir et je suis développeur fullstack spécialisé en Web, iOS et Python 💻📱. J’aime créer des produits rapides, épurés et utiles — de la logique backend aux interfaces fluides. J’apprends constamment, j’expérimente et je transforme des idées en projets réels. J’aime autant travailler en équipe qu’en autonomie, et je recherche toujours des opportunités pour grandir et contribuer.",
@@ -155,8 +155,8 @@ const translations = {
         hero_title: "Hallo! Ich bin Vladimir",
         hero_desc: "Ich bin Fullstack-Web- & iOS-Entwickler, offen für neue Projekte, Kooperationen, Praktika und Partnerschaften.",
 
-        download_cv: "Lebenslauf herunterladen",
-        view_projects: "Auf GitHub ansehen",
+        download_cv: "Besuchen Sie mein LinkedIn",
+        view_projects: "Folge mir auf GitHub",
 
         about_title: "Über mich",
         about_desc1: "Hi 👋 Ich heiße Vladimir und bin Fullstack-Entwickler mit Schwerpunkt auf Web-, iOS- und Python-Entwicklung 💻📱. Ich entwickle schnelle, saubere und funktionale Produkte — von Backend-Logik bis zu benutzerfreundlichen Interfaces. Ich lerne ständig, experimentiere und setze Ideen in reale Projekte um.",
@@ -192,8 +192,8 @@ const translations = {
         hero_title: "你好！我是 Vladimir",
         hero_desc: "我是一名全栈 Web 和 iOS 开发者，始终开放于新项目、合作、实习与伙伴关系。",
 
-        download_cv: "下载简历",
-        view_projects: "查看 GitHub",
+        download_cv: "访问我的 LinkedIn",
+        view_projects: "关注我在 GitHub",
 
         about_title: "关于我",
         about_desc1: "你好 👋 我叫 Vladimir，是一名专注于 Web、iOS 和 Python 的全栈开发者 💻📱。我喜欢打造快速、简洁且有价值的产品，从后端逻辑到顺畅的用户界面。",
@@ -229,8 +229,8 @@ const translations = {
         hero_title: "こんにちは、Vladimirです",
         hero_desc: "Web と iOS のフルスタック開発者です。新しいプロジェクト、コラボ、インターン、パートナーシップを歓迎します。",
 
-        download_cv: "履歴書をダウンロード",
-        view_projects: "GitHub を見る",
+        download_cv: "私のLinkedInを訪問",
+        view_projects: "GitHubでフォローしてください",
 
         about_title: "自己紹介",
         about_desc1: "こんにちは 👋 Vladimir です。Web、iOS、Python を中心に開発しているフルスタックエンジニアです 💻📱。高速で、クリーン、そして意味のあるプロダクトを作ることが好きです。",
@@ -266,7 +266,7 @@ const translations = {
         hero_title: "مرحباً! أنا فلاديمير",
         hero_desc: "أنا مطور ويب و iOS بدوام كامل (Fullstack)، منفتح على المشاريع الجديدة، التعاون، التدريب، والشراكات.",
 
-        download_cv: "تحميل السيرة الذاتية",
+        download_cv: "زيارة LinkedIn الخاص بي",
         view_projects: "تابعني على GitHub",
 
         about_title: "نبذة عني",
