@@ -32,7 +32,8 @@ const translations = {
         skills_desc: "These skills were built through real-world projects, problem solving, and a deep interest in creating clean and reliable software. I focus on writing structured code, learning modern technologies, and improving every day to turn ideas into well-designed digital experiences.",
 
         contact_title: "Contact",
-        contact_desc: "Open to new projects — write: ",
+        contact_body1: "Got an idea? Let’s bring it to life.",
+        contact_body2: "I can create a website, an iOS app, or any other project you have in mind. Feel free to reach out:",
         send: "Send"
     },
 
@@ -69,7 +70,8 @@ const translations = {
         skills_desc: "Estas habilidades se formaron a través de proyectos reales, resolución de problemas y un profundo interés en crear software limpio y confiable. Me enfoco en escribir código estructurado, aprender tecnologías modernas y mejorar cada día para convertir ideas en experiencias digitales bien diseñadas.",
 
         contact_title: "Contacto",
-        contact_desc: "Abierto a nuevos proyectos — escribe a: ",
+        contact_body1: "¿Tienes una idea? Hagámosla realidad.",
+        contact_body2: "Puedo crear un sitio web, una app para iOS o cualquier otro proyecto que tengas en mente. No dudes en contactarme:",
         send: "Enviar"
     },
 
@@ -106,7 +108,8 @@ const translations = {
         skills_desc: "Эти навыки сформированы через реальные проекты, решение задач и глубокий интерес к созданию чистого и надежного программного обеспечения. Я сосредоточен на написании структурированного кода, изучении современных технологий и ежедневном улучшении, превращая идеи в продуманные цифровые продукты.",
 
         contact_title: "Контакты",
-        contact_desc: "Открыт для новых проектов — пишите: ",
+        contact_body1: "Есть идея? Давайте воплотим её в жизнь.",
+        contact_body2: "Я могу создать сайт, приложение для iOS или любой другой проект, который вы захотите. Пишите мне:",
         send: "Отправить"
     },
 
@@ -144,7 +147,8 @@ const translations = {
 
 
         contact_title: "Contact",
-        contact_desc: "Ouvert aux nouveaux projets — écrivez-moi : ",
+        contact_body1: "Tu as une idée ? Donnons-lui vie.",
+        contact_body2: "Je peux créer un site web, une application iOS ou tout autre projet que tu as en tête. N’hésite pas à me contacter :",
         send: "Envoyer"
     },
 
@@ -181,7 +185,8 @@ const translations = {
         skills_desc: "Diese Fähigkeiten entstanden durch reale Projekte, Problemlösungen und ein tiefes Interesse an der Entwicklung sauberer und zuverlässiger Software. Ich konzentriere mich darauf, strukturierten Code zu schreiben, moderne Technologien zu lernen und mich jeden Tag weiterzuentwickeln, um Ideen in durchdachte digitale Erlebnisse zu verwandeln.",
 
         contact_title: "Kontakt",
-        contact_desc: "Offen für neue Projekte — schreib mir: ",
+        contact_body1: "Du hast eine Idee? Lass sie uns zum Leben erwecken.",
+        contact_body2: "Ich kann eine Website, eine iOS-App oder jedes andere Projekt erstellen, das du im Kopf hast. Melde dich einfach:",
         send: "Senden"
     },
 
@@ -218,7 +223,8 @@ const translations = {
         skills_desc: "这些技能源自真实项目、问题解决以及对创建干净可靠软件的热情。我专注于编写结构化代码、学习现代技术，并每天进步，将想法转化为设计完善的数字体验。",
 
         contact_title: "联系",
-        contact_desc: "开放新项目 — 联系我: ",
+        contact_body1: "有想法吗？让我们把它变为现实。",
+        contact_body2: "我可以为你制作网站、iOS 应用，或你想到的任何项目。欢迎联系我：",
         send: "发送"
     },
 
@@ -255,7 +261,8 @@ const translations = {
         skills_desc: "これらのスキルは、実際のプロジェクトや問題解決、そしてクリーンで信頼できるソフトウェアを作ることへの強い関心から培われました。構造的なコードを書くこと、最新技術を学ぶこと、そして日々成長しながら、アイデアを洗練されたデジタル体験へと形にしています。",
 
         contact_title: "連絡先",
-        contact_desc: "新しいプロジェクト歓迎 — ご連絡ください: ",
+        contact_body1: "アイデアがありますか？形にしましょう。",
+        contact_body2: "ウェブサイト、iOSアプリ、またはあなたの思い描くプロジェクトを制作できます。気軽にご連絡ください：",
         send: "送信"
     },
 
@@ -292,7 +299,8 @@ const translations = {
         skills_desc: "تم بناء هذه المهارات من خلال مشاريع واقعية، وحل المشكلات، وشغف عميق بإنشاء برمجيات نظيفة وموثوقة. أركز على كتابة كود منظم، وتعلم التقنيات الحديثة، والتطور يوميًا لتحويل الأفكار إلى تجارب رقمية مصممة بعناية.",
 
         contact_title: "تواصل معي",
-        contact_desc: "مستعد للمشاريع الجديدة — تواصل عبر: ",
+        contact_body1: "هل لديك فكرة؟ دعنا نحولها إلى واقع.",
+        contact_body2: "يمكنني إنشاء موقع إلكتروني، تطبيق iOS، أو أي مشروع آخر تفكر فيه. لا تتردد في التواصل:",
         send: "إرسال"
     }
 };
