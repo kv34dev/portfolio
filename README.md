@@ -10,10 +10,17 @@ Welcome to my personal portfolio website! Here, you can explore my skills, exper
 - **Projects:** A selection of my personal and professional projects, including links and descriptions.
 - **Contact:** Ways to get in touch with me for collaborations or job opportunities.
 
-## Technologies Used
+## Languages Available
 
-- **Languages & Frameworks:** Python, Swift, JavaScript, HTML, CSS, PineScript
-- **Version Control:** Git, GitHub
+This website is available in multiple languages to reach a wider audience. You can view the site in the following languages:
+- English
+- Spanish
+- Russian
+- French
+- German
+- Chinese
+- Japanese
+- Arabic
 
 ## How to View
 
