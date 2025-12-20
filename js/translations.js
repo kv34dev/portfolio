@@ -1,18 +1,19 @@
 const translations = {
     en: {
         title: "Vladimir Kudryashov",
-        subtitle: "Web & iOS Developer",
+        subtitle: "Full-Stack Developer — iOS, Web & Python",
 
         hero_title: "Hi there, I'm Vladimir!",
-        hero_desc: "I'm a fullstack Web & iOS developer, always open to new projects, collaborations, internships, and partnerships.",
+        hero_desc: "I’m a mid-level full-stack iOS, web, and Python developer, always open to new projects, collaborations, internships, and partnerships.",
 
         download_cv: "Visit my LinkedIn",
         view_projects: "Follow me on GitHub",
 
         about_title: "About Me",
-        about_desc1: "Hey 👋 My name is Vladimir, and I’m a full-stack developer specializing in Web, iOS, and Python development 💻📱. I love building fast, clean and meaningful products — from backend logic to smooth user interfaces. I’m always learning, experimenting, and turning ideas into something real. I enjoy working in teams as much as independently, and I'm constantly looking for meaningful opportunities to grow and contribute.",
-        about_desc2: "I live in Spain 🇪🇸, speak three languages — English, Russian, and Spanish and I’m currently learning French because I believe language opens new worlds.",
-        about_desc3: "💹 I’m also involved in trading forex and cryptocurrency. I develop my own trading strategies in PineScript to automate and refine my approach to the markets.",
+        about_desc1: "I’m a mid-level full-stack developer with a strong focus on iOS application development for the Apple ecosystem. I design and build applications for iOS, iPadOS, macOS, watchOS, and visionOS, from small utility apps to complex full-scale products. I’m comfortable working on projects of any type and complexity, paying close attention to performance, stability, and user experience across all Apple platforms.",
+        about_desc2: "In addition to Apple ecosystem development, I create modern and responsive websites tailored to different styles and needs. My web projects include database integration, authentication systems, and advanced backend logic, allowing me to deliver complete, production-ready solutions rather than just front-end interfaces.",
+        about_desc3: "I also develop Python applications for a wide range of practical use cases, including automation tools, data processing scripts, and Telegram bots. I enjoy using Python to build efficient solutions that simplify workflows and solve real-world problems.",
+        about_desc4: "I’m based in Spain and speak English, Russian, and Spanish fluently. I’m comfortable working with international teams and clients, and I value clear communication throughout the development process.",
 
         projects_title: "Featured projects",
         proj_desc1: "Mobile app with offline sync and clean UI.",
@@ -21,7 +22,7 @@ const translations = {
         proj_desc22: "Telegram bots with automation, API integration, and reliable backend.",
         proj_desc3: "Automated trading strategy for TradingView.",
         proj_desc4: "Responsive and modern websites.",
-        web_sites: "Web Sites • HTML, CSS, JavaScript",
+        web_sites: "Web Sites • HTML, CSS, JavaScript, SQL",
 
         tech_dist: "Experience",
         exp_desc1: "Back in 2020, my programming journey began. I completed a Python game development course and built my first game — you can download and try it on my GitHub.",
