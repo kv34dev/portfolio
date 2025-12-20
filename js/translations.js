@@ -34,7 +34,16 @@ const translations = {
         contact_title: "Contact",
         contact_body1: "Got an idea? Let’s bring it to life.",
         contact_body2: "I can create a website, an iOS app, or any other project you have in mind. Feel free to reach out:",
-        send: "Send"
+        send: "Send",
+
+        name: "Full name",
+        email: "Email address",
+        subj: "Subject",
+        send_message: "Message",
+        message_btn: "Send Message",
+        message_sent: "Thank you for your message! I'll get back to you soon.",
+        or_contact: "Or you can contact me through:"
+
     },
 
     es: {
