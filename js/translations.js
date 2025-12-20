@@ -16,7 +16,9 @@ const translations = {
 
         projects_title: "Featured projects",
         proj_desc1: "Mobile app with offline sync and clean UI.",
-        proj_desc2: "Indie game prototype.",
+        proj_desc11: "AR scanning with real-time processing and clean UI.",
+        proj_desc2: "Indie games with focused gameplay, clean logic, and scalable code.",
+        proj_desc22: "Telegram bots with automation, API integration, and reliable backend.",
         proj_desc3: "Automated trading strategy for TradingView.",
         proj_desc4: "Responsive and modern websites.",
         web_sites: "Web Sites • HTML, CSS, JavaScript",
