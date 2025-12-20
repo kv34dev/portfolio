@@ -353,7 +353,6 @@
 
         .contact-section {
             text-align: center;
-            padding: 60px 40px;
         }
 
         .contact-title {
@@ -477,7 +476,7 @@
             }
         }
 
-        /* Contact Form Styles - Apple Design */
+/* Contact Form Styles - Apple Design */
 .contact-form {
     max-width: 600px;
     margin: 40px auto 32px;
@@ -538,7 +537,7 @@
     color: #ffffff;
     background: var(--accent);
     border: none;
-    border-radius: 12px;
+    border-radius: 980px;
     cursor: pointer;
     transition: all 0.2s ease;
     letter-spacing: -0.01em;
