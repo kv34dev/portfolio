@@ -4,142 +4,246 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Vladimir Kudryashov — Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="js/translations.js"></script>
     <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-<div class="container">
-    <header>
-        <div class="brand">
-            <div class="logo">VK</div>
-            <div class="title">
-                <h1 data-i18n="title"></h1>
-                <p data-i18n="subtitle"></p>
+    <nav class="nav-bar">
+        <div class="nav-content">
+            <div class="logo-section">
+                <div class="logo">KV</div>
+                <span class="nav-title" data-i18n="title"></span>
+            </div>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span id="themeIcon">☀️</span>
+                </button>
+                <select class="lang-select" id="langSelect" aria-label="Language switcher">
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="ru">Русский</option>
+                    <option value="fr">Français</option>
+                    <option value="de">Deutsch</option>
+                    <option value="zh">中文</option>
+                    <option value="ja">日本語</option>
+                    <option value="ar">العربية</option>
+                </select>
             </div>
         </div>
-        <nav>
-            <select id="langSelect" aria-label="Language switcher">
-                <option value="en">English</option>
-                <option value="es">Español</option>
-                <option value="ru">Русский</option>
-                <option value="fr">Français</option>
-                <option value="de">Deutsch</option>
-                <option value="zh">中文</option>
-                <option value="ja">日本語</option>
-                <option value="ar">العربية</option>
-            </select>
-        </nav>
-    </header>
+    </nav>
 
-    <main>
-        <section class="hero">
-            <div class="card intro">
-                <h2 data-i18n="hero_title"></h2>
-                <p data-i18n="hero_desc"></p>
-
-                <div class="cta">
-                    <a class="btn" href="https://linkedin.com/in/vladimir-kudryashov-58bb7b394
-" data-i18n="download_cv" target="_blank"></a>
-                    <a class="btn ghost" href="https://github.com/kv34dev" data-i18n="view_projects" target="_blank"></a>
-                </div>
-
-                <div class="accent-line" aria-hidden="true"></div>
-
-                <div id="about">
-                    <h3 data-i18n="about_title"></h3>
-                    <p class="meta" data-i18n="about_desc1"></p>
-                    <p class="meta" data-i18n="about_desc2"></p>
-                    <p class="meta" data-i18n="about_desc3"></p>
+    <div class="container">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title" data-i18n="hero_title"></h1>
+                <p class="hero-subtitle" data-i18n="subtitle"></p>
+                <p class="hero-desc" data-i18n="hero_desc"></p>
+                
+                <div class="cta-buttons">
+                    <a class="btn btn-primary" href="https://linkedin.com/in/vladimir-kudryashov-58bb7b394" data-i18n="download_cv" target="_blank"></a>
+                    <a class="btn btn-secondary" href="https://github.com/kv34dev" data-i18n="view_projects" target="_blank"></a>
                 </div>
             </div>
 
-            <aside class="card visual">
-                    <img id="profileImg" src="assets/images/profile.jpeg" alt="Profile image"/>
-            </aside>
-
+            <div class="profile-container">
+                <img class="profile-image" src="assets/images/profile.jpeg" alt="Profile image" id="profileImg" />
+            </div>
         </section>
 
-        <section class="charts">
-            <div class="grid-2">
-                <div class="card" id="projects">
-                    <h3 data-i18n="projects_title"></h3>
-                    <div class="projects">
-                        <div class="project">
-                            <h4>Planner365 • Swift</h4>
-                            <div class="meta" data-i18n="proj_desc1"></div>
-                        </div>
-                        <div class="project">
-                            <h4>Indie Games, Telegram Bots • Python</h4>
-                            <div class="meta" data-i18n="proj_desc2"></div>
-                        </div>
-                        <div class="project">
-                            <h4>FrtBySl Srategy • PineScript</h4>
-                            <div class="meta" data-i18n="proj_desc3"></div>
-                        </div>
-                        <div class="project">
-                            <h4 data-i18n="web_sites"></h4>
-                            <div class="meta" data-i18n="proj_desc4"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <h3 data-i18n="tech_dist"></h3>
-                    <p class="meta" data-i18n="exp_desc1"></p>
-                    <p class="meta" data-i18n="exp_desc2"></p>
-                    <p class="meta" data-i18n="exp_desc3"></p>
-                    <p class="meta" data-i18n="exp_desc4"></p>
-                </div>
+        <section class="section">
+            <h2 class="section-title" data-i18n="about_title"></h2>
+            <div class="card">
+                <p class="card-text" data-i18n="about_desc1"></p>
+                <p class="card-text" data-i18n="about_desc2"></p>
+                <p class="card-text" data-i18n="about_desc3"></p>
             </div>
+        </section>
 
-            <div class="grid-2" style="margin-top:18px">
-                <div class="card">
-                    <h3 data-i18n="skill_bars"></h3>
-                    <div class="skill-list">
-                        <div class="skill swift"><div class="name">Swift</div><div class="bar"><i style="width:84%"></i></div></div>
-                        <div class="skill html"><div class="name">HTML</div><div class="bar"><i style="width:90%"></i></div></div>
-                        <div class="skill css"><div class="name">CSS</div><div class="bar"><i style="width:77%"></i></div></div>
-                        <div class="skill js"><div class="name">JavaScript</div><div class="bar"><i style="width:85%"></i></div></div>
-                        <div class="skill python"><div class="name">Python</div><div class="bar"><i style="width:70%"></i></div></div>
-                        <div class="skill pine"><div class="name">PineScript</div><div class="bar"><i style="width:55%"></i></div></div>
-                    </div>
-                    <p class="meta" data-i18n="skills_desc"></p>
+        <section class="section">
+            <h2 class="section-title" data-i18n="projects_title"></h2>
+            <div class="grid-4">
+                <div class="project-card">
+                    <h4 class="project-title">Planner365 • Swift</h4>
+                    <p class="project-desc" data-i18n="proj_desc1"></p>
                 </div>
-                <div class="card">
-                    <h3 data-i18n="exp_by_year"></h3>
-                    <canvas id="skillsChart" width="475" height="200"></canvas>
+                <div class="project-card">
+                    <h4 class="project-title">Indie Games, Telegram Bots • Python</h4>
+                    <p class="project-desc" data-i18n="proj_desc2"></p>
+                </div>
+                <div class="project-card">
+                    <h4 class="project-title">FrtBySl Strategy • PineScript</h4>
+                    <p class="project-desc" data-i18n="proj_desc3"></p>
+                </div>
+                <div class="project-card">
+                    <h4 class="project-title" data-i18n="web_sites"></h4>
+                    <p class="project-desc" data-i18n="proj_desc4"></p>
                 </div>
             </div>
         </section>
-    </main>
 
-    <footer id="contact" class="card contact-card">
-        <div style="text-align: center; margin: 0 auto; width: 80%">
-            <h3 data-i18n="contact_title"></h3>
-                <p class="meta" data-i18n="contact_body1"></p>
-                <p class="meta" data-i18n="contact_body2"></p>
-            <p class="contacts">
-                <strong>Email: </strong>
-                <a href="mailto:1@vladimirkudryashov.com">
-                    <strong>1@vladimirkudryashov.com</strong>
-                </a>
-            </p>
-            <p class="contacts">
-                <strong>Telegram:</strong> 
-                <a href="https://t.me/severozapad25" target="_blank">
-                    <strong>@severozapad25</strong>
-                </a>
-            </p>
-        </div>
+        <section class="section">
+            <h2 class="section-title" data-i18n="tech_dist"></h2>
+            <div class="card">
+                <p class="card-text" data-i18n="exp_desc1"></p>
+                <p class="card-text" data-i18n="exp_desc2"></p>
+                <p class="card-text" data-i18n="exp_desc3"></p>
+                <p class="card-text" data-i18n="exp_desc4"></p>
+            </div>
+        </section>
 
-        <div class="meta small"><small>&copy; <span id="year"></span> Vladimir Kudryashov</small></div>
+        <section class="section">
+            <div class="cards-stack">
+                <div class="card">
+                    <h3 class="card-title" data-i18n="skill_bars"></h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Swift</span>
+                                <span class="skill-percent">84%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 84%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">HTML</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">CSS</span>
+                                <span class="skill-percent">77%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 77%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-percent">70%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">PineScript</span>
+                                <span class="skill-percent">55%</span>
+                            </div>
+                            <div class="skill-bar-bg">
+                                <div class="skill-bar-fill" style="width: 55%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="card-text" data-i18n="skills_desc"></p>
+                </div>
+
+                <!--
+                <div class="card">
+                    <h3 class="card-title" data-i18n="exp_by_year"></h3>
+                    <div class="chart-container">
+                        <canvas id="skillsChart" width="400" height="250"></canvas>
+                    </div>
+                </div>
+                -->
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="card contact-section">
+                <h2 class="contact-title" data-i18n="contact_title"></h2>
+                <p class="contact-text" data-i18n="contact_body1"></p>
+                <p class="contact-text" data-i18n="contact_body2"></p>
+                <div class="contact-links">
+                    <div>
+                        <strong>Email: </strong>
+                        <a href="mailto:1@vladimirkudryashov.com" class="contact-link">1@vladimirkudryashov.com</a>
+                    </div>
+                    <div>
+                        <strong>Telegram: </strong>
+                        <a href="https://t.me/severozapad25" target="_blank" class="contact-link">@severozapad25</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; <span id="year"></span> Vladimir Kudryashov</p>
     </footer>
 
-</div>
-
 <script src="js/script.js"></script>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Theme toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const html = document.documentElement;
+        
+        // Check for saved theme preference or default to dark
+        const currentTheme = localStorage.getItem('theme') || 'dark';
+        html.setAttribute('data-theme', currentTheme);
+        themeToggle.textContent = currentTheme === 'dark' ? '☀️' : '🌙';
+
+        themeToggle.addEventListener('click', () => {
+            const theme = html.getAttribute('data-theme');
+            const newTheme = theme === 'dark' ? 'light' : 'dark';
+            
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            themeToggle.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Animate skill bars on scroll
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.width = entry.target.getAttribute('style').match(/width:\s*(\d+%)/)[1];
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.skill-progress').forEach(bar => {
+            observer.observe(bar);
+        });
+    </script>
 </body>
 </html>
