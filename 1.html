@@ -69,7 +69,7 @@
         }
 
         .nav-content {
-            max-width: 980px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 0 22px;
             height: 48px;
@@ -145,14 +145,21 @@
         }
 
         .container {
-            max-width: 980px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 88px 22px 60px;
         }
 
         .hero-section {
-            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 60px;
+            align-items: center;
             padding: 60px 0 80px;
+        }
+
+        .hero-content {
+            text-align: left;
         }
 
         .hero-title {
@@ -174,14 +181,12 @@
             font-size: 21px;
             font-weight: 400;
             color: var(--text-secondary);
-            max-width: 640px;
-            margin: 0 auto 40px;
+            margin-bottom: 40px;
             line-height: 1.38;
         }
 
         .cta-buttons {
             display: flex;
-            justify-content: center;
             gap: 20px;
             flex-wrap: wrap;
         }
@@ -221,15 +226,17 @@
         .profile-container {
             display: flex;
             justify-content: center;
-            margin: 60px 0;
+            align-items: center;
         }
 
         .profile-image {
-            width: 280px;
-            height: 280px;
-            border-radius: 50%;
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            aspect-ratio: 1;
+            border-radius: 20px;
             object-fit: cover;
-            box-shadow: 0 8px 30px var(--shadow);
+            box-shadow: 0 20px 60px var(--shadow);
         }
 
         .section {
@@ -251,6 +258,7 @@
             box-shadow: 0 4px 20px var(--shadow);
             border: 1px solid var(--border);
             transition: all 0.3s ease;
+            margin-bottom: 24px;
         }
 
         .card:hover {
@@ -269,6 +277,12 @@
             color: var(--text-secondary);
             line-height: 1.47;
             margin-bottom: 16px;
+        }
+
+        .cards-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
         }
 
         .grid-2 {
@@ -394,6 +408,25 @@
             border-top: 1px solid var(--border);
         }
 
+        @media (max-width: 968px) {
+            .hero-section {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .hero-content {
+                text-align: center;
+            }
+
+            .cta-buttons {
+                justify-content: center;
+            }
+
+            .profile-image {
+                max-width: 320px;
+            }
+        }
+
         @media (max-width: 768px) {
             .hero-title {
                 font-size: 40px;
@@ -416,8 +449,7 @@
             }
 
             .profile-image {
-                width: 220px;
-                height: 220px;
+                max-width: 280px;
             }
 
             .card {
@@ -451,6 +483,10 @@
                 width: 100%;
                 text-align: center;
             }
+
+            .profile-image {
+                max-width: 240px;
+            }
         }
     </style>
 </head>
@@ -482,13 +518,15 @@
 
     <div class="container">
         <section class="hero-section">
-            <h1 class="hero-title" data-i18n="hero_title"></h1>
-            <p class="hero-subtitle" data-i18n="subtitle"></p>
-            <p class="hero-desc" data-i18n="hero_desc"></p>
-            
-            <div class="cta-buttons">
-                <a class="btn btn-primary" href="https://linkedin.com/in/vladimir-kudryashov-58bb7b394" data-i18n="download_cv" target="_blank"></a>
-                <a class="btn btn-secondary" href="https://github.com/kv34dev" data-i18n="view_projects" target="_blank"></a>
+            <div class="hero-content">
+                <h1 class="hero-title" data-i18n="hero_title"></h1>
+                <p class="hero-subtitle" data-i18n="subtitle"></p>
+                <p class="hero-desc" data-i18n="hero_desc"></p>
+                
+                <div class="cta-buttons">
+                    <a class="btn btn-primary" href="https://linkedin.com/in/vladimir-kudryashov-58bb7b394" data-i18n="download_cv" target="_blank"></a>
+                    <a class="btn btn-secondary" href="https://github.com/kv34dev" data-i18n="view_projects" target="_blank"></a>
+                </div>
             </div>
 
             <div class="profile-container">
@@ -538,7 +576,7 @@
         </section>
 
         <section class="section">
-            <div class="grid-2">
+            <div class="cards-stack">
                 <div class="card">
                     <h3 class="card-title" data-i18n="skill_bars"></h3>
                     <div class="skill-bars">
@@ -600,12 +638,14 @@
                     <p class="card-text" data-i18n="skills_desc"></p>
                 </div>
 
+                <!--
                 <div class="card">
                     <h3 class="card-title" data-i18n="exp_by_year"></h3>
                     <div class="chart-container">
                         <canvas id="skillsChart" width="400" height="250"></canvas>
                     </div>
                 </div>
+                -->
             </div>
         </section>
 
@@ -631,9 +671,6 @@
     <footer class="footer">
         <p>&copy; <span id="year"></span> Vladimir Kudryashov</p>
     </footer>
-    </footer>
-
-</div>
 
 <script src="js/script.js"></script>
 
