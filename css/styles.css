@@ -442,10 +442,6 @@
             .card {
                 padding: 28px;
             }
-
-            .contact-section {
-                padding: 40px 24px;
-            }
         }
 
         @media (max-width: 480px) {
