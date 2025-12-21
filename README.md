@@ -1,4 +1,4 @@
-# Portfolio Website
+# My Portfolio Website
 
 Welcome to my personal portfolio website! Here, you can explore my skills, experience, and some of the projects I've worked on. This website serves as an overview of my journey as a developer and trader, showcasing both my technical abilities and the work I've done over the years.
 
