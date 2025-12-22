@@ -12,7 +12,39 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
+<style> 
+    #snowflakes-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: -1;
+        overflow: hidden;
+    }
+
+    .snowflake {
+        position: absolute;
+        top: -10px;
+        color: #fff;
+        font-size: 1em;
+        opacity: 0.8;
+        animation: fall 8s linear infinite;
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+        pointer-events: none;
+    }
+
+    @keyframes fall {
+        to {
+            transform: translateY(100vh) rotate(360deg);
+        }
+    }
+</style>
+
 <body>
+    <div id="snowflakes-container"></div>
+
     <nav class="nav-bar">
         <div class="nav-content">
             <div class="logo-section">
@@ -166,15 +198,6 @@
                     </div>
                     <p class="card-text" data-i18n="skills_desc"></p>
                 </div>
-
-                <!--
-                <div class="card">
-                    <h3 class="card-title" data-i18n="exp_by_year"></h3>
-                    <div class="chart-container">
-                        <canvas id="skillsChart" width="400" height="250"></canvas>
-                    </div>
-                </div>
-                -->
             </div>
         </section>
 
@@ -320,6 +343,28 @@
                 }
             });
         });
+
+        // snowflakes
+        const snowflakesContainer = document.getElementById('snowflakes-container');
+        
+        function createSnowflake() {
+            const snowflake = document.createElement('div');
+            snowflake.className = 'snowflake';
+            snowflake.innerHTML = '❄';
+            snowflake.style.left = Math.random() * 100 + '%';
+            snowflake.style.fontSize = (Math.random() * 0.8 + 0.5) + 'em';
+            snowflake.style.opacity = Math.random() * 0.6 + 0.4;
+            
+            snowflake.style.animationDuration = '8s';
+            
+            snowflakesContainer.appendChild(snowflake);
+
+            setTimeout(() => {
+                snowflake.remove();
+            }, 8000);
+        }
+
+        setInterval(createSnowflake, 200);
     </script>
 </body>
 </html>
