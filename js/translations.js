@@ -51,41 +51,53 @@ const translations = {
 
     es: {
         title: "Vladimir Kudryashov",
-        subtitle: "Desarrollador Web y iOS",
+        subtitle: "Desarrollador Full-Stack — iOS, Web y Python",
 
         hero_title: "¡Hola! Soy Vladimir",
-        hero_desc: "Soy desarrollador fullstack Web & iOS, siempre abierto a nuevos proyectos, colaboraciones, prácticas y asociaciones.",
+        hero_desc: "Soy un desarrollador full-stack de nivel medio especializado en iOS, web y Python, siempre abierto a nuevos proyectos, colaboraciones, prácticas y asociaciones.",
 
         download_cv: "Visita mi LinkedIn",
         view_projects: "Sígueme en GitHub",
 
         about_title: "Sobre mí",
-        about_desc1: "Hola 👋 Me llamo Vladimir y soy desarrollador fullstack especializado en desarrollo Web, iOS y Python 💻📱. Me encanta crear productos rápidos, limpios y útiles: desde la lógica del backend hasta interfaces fluidas. Siempre estoy aprendiendo, probando cosas nuevas y convirtiendo ideas en proyectos reales. Disfruto tanto del trabajo en equipo como del trabajo independiente, y siempre busco oportunidades para crecer y aportar.",
-        about_desc2: "Vivo en España 🇪🇸, hablo inglés, ruso y español, y actualmente estoy aprendiendo francés porque creo que los idiomas abren nuevos mundos.",
-        about_desc3: "💹 También me dedico al trading de forex y criptomonedas. Desarrollo mis propias estrategias en PineScript para automatizar y mejorar mi enfoque en los mercados.",
+        about_desc1: "Soy un desarrollador full-stack de nivel medio con un fuerte enfoque en el desarrollo de aplicaciones iOS para el ecosistema Apple. Diseño y construyo aplicaciones para iOS, iPadOS, macOS, watchOS y visionOS, desde pequeñas utilidades hasta productos complejos a gran escala. Me siento cómodo trabajando en proyectos de cualquier tipo y complejidad, prestando especial atención al rendimiento, la estabilidad y la experiencia de usuario en todas las plataformas Apple.",
+        about_desc2: "Además del desarrollo para el ecosistema Apple, creo sitios web modernos y responsivos adaptados a diferentes estilos y necesidades. Mis proyectos web incluyen integración con bases de datos, sistemas de autenticación y lógica backend avanzada, lo que me permite entregar soluciones completas y listas para producción, no solo interfaces front-end.",
+        about_desc3: "También desarrollo aplicaciones en Python para una amplia variedad de casos prácticos, incluidos herramientas de automatización, scripts de procesamiento de datos y bots de Telegram. Disfruto usar Python para crear soluciones eficientes que simplifican flujos de trabajo y resuelven problemas reales.",
+        about_desc4: "Vivo en España y hablo inglés, ruso y español con fluidez. Me siento cómodo trabajando con equipos y clientes internacionales, y valoro la comunicación clara durante todo el proceso de desarrollo.",
 
         projects_title: "Proyectos destacados",
-        proj_desc1: "Aplicación móvil con sincronización offline y diseño limpio.",
-        proj_desc2: "Prototipo de juego indie.",
+        proj_desc1: "Aplicación móvil con sincronización sin conexión y una interfaz limpia.",
+        proj_desc11: "Escaneo AR con procesamiento en tiempo real y una interfaz limpia.",
+        proj_desc2: "Juegos indie con jugabilidad enfocada, lógica limpia y código escalable.",
+        proj_desc22: "Bots de Telegram con automatización, integración de API y un backend fiable.",
         proj_desc3: "Estrategia de trading automatizada para TradingView.",
         proj_desc4: "Sitios web modernos y responsivos.",
-        web_sites: "Sitios Web • HTML, CSS, JavaScript",
+        web_sites: "Sitios web • HTML, CSS, JavaScript, SQL",
 
         tech_dist: "Experiencia",
-        exp_desc1: "En 2020 comenzó mi camino en la programación. Terminé un curso de desarrollo de juegos en Python y creé mi primer juego — puedes descargarlo en mi GitHub.",
-        exp_desc2: "En 2021 empecé a aprender Swift, y después de mucha práctica desarrollé varias aplicaciones. Una de ellas es Planner, que aún está en desarrollo 📱",
-        exp_desc3: "Desde 2022 trabajo como desarrollador web fullstack, creando sitios tanto para clientes como para mí 🌍",
-        exp_desc4: "Además del desarrollo, estoy activamente involucrado en el trading, principalmente forex y metales. Diseño y programo mis propias estrategias en PineScript para TradingView 📈",
+        exp_desc1: "En 2020, comencé mi camino en la programación completando un curso de desarrollo de juegos en Python y creando mi primer juego, que está disponible para descargar en mi GitHub.",
+        exp_desc2: "En 2021, empecé a aprender Swift y, tras una práctica intensiva, desarrollé varias aplicaciones, una de las cuales — Planner365 — sigue en desarrollo.",
+        exp_desc3: "Desde 2022, trabajo como desarrollador web full-stack, creando sitios web tanto para clientes como para proyectos personales.",
+        exp_desc4: "Además del desarrollo, participo activamente en el trading, principalmente en forex y metales. Diseño y programo mis propias estrategias en PineScript para TradingView con el fin de automatizar el trading y aumentar la rentabilidad.",
 
         exp_by_year: "Experiencia por años",
-        skill_bars: "Nivel de habilidades",
-        skills_desc: "Estas habilidades se formaron a través de proyectos reales, resolución de problemas y un profundo interés en crear software limpio y confiable. Me enfoco en escribir código estructurado, aprender tecnologías modernas y mejorar cada día para convertir ideas en experiencias digitales bien diseñadas.",
+        skill_bars: "Barras de habilidades",
+        skills_desc: "Estas habilidades se han desarrollado a través de proyectos reales, la resolución de problemas y un profundo interés por crear software limpio y fiable. Me enfoco en escribir código estructurado, aprender tecnologías modernas y mejorar cada día para convertir ideas en experiencias digitales bien diseñadas.",
 
         contact_title: "Contacto",
         contact_body1: "¿Tienes una idea? Hagámosla realidad.",
-        contact_body2: "Puedo crear un sitio web, una app para iOS o cualquier otro proyecto que tengas en mente. No dudes en contactarme:",
-        send: "Enviar"
+        contact_body2: "Puedo crear un sitio web, una aplicación iOS o cualquier otro proyecto que tengas en mente. No dudes en contactarme:",
+        send: "Enviar",
+
+        name: "Nombre completo",
+        email: "Dirección de correo electrónico",
+        subj: "Asunto",
+        send_message: "Mensaje",
+        message_btn: "Enviar mensaje",
+        message_sent: "¡Gracias por tu mensaje! Me pondré en contacto contigo pronto.",
+        or_contact: "O también puedes contactarme a través de:"
     },
+
 
     ru: {
         title: "Владимир Кудряшов",
