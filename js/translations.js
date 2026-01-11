@@ -250,41 +250,54 @@ const translations = {
 
     zh: {
         title: "Vladimir Kudryashov",
-        subtitle: "Web 与 iOS 开发者",
+        subtitle: "全栈开发者 — iOS、Web 与 Python",
 
         hero_title: "你好！我是 Vladimir",
-        hero_desc: "我是一名全栈 Web 和 iOS 开发者，始终开放于新项目、合作、实习与伙伴关系。",
+        hero_desc: "我是一名中级全栈开发者，专注于 iOS、Web 和 Python，始终乐于参与新的项目、合作、实习和伙伴关系。",
 
         download_cv: "访问我的 LinkedIn",
-        view_projects: "关注我在 GitHub",
+        view_projects: "在 GitHub 上关注我",
 
         about_title: "关于我",
-        about_desc1: "你好 👋 我叫 Vladimir，是一名专注于 Web、iOS 和 Python 的全栈开发者 💻📱。我喜欢打造快速、简洁且有价值的产品，从后端逻辑到顺畅的用户界面。",
-        about_desc2: "我住在西班牙 🇪🇸，会说英语、俄语和西班牙语，目前正在学习法语，因为我相信语言能打开新的世界。",
-        about_desc3: "💹 我也从事外汇和加密货币交易，并使用 PineScript 编写自己的交易策略，实现自动化与优化。",
+        about_desc1: "我是一名中级全栈开发者，重点专注于 Apple 生态系统中的 iOS 应用开发。我为 iOS、iPadOS、macOS、watchOS 和 visionOS 设计并构建应用程序，从小型工具类应用到复杂的完整产品。我能够胜任任何类型和复杂度的项目，并高度重视性能、稳定性以及所有 Apple 平台上的用户体验。",
+        about_desc2: "除了 Apple 生态系统开发之外，我还创建现代化且响应式的网站，能够根据不同风格和需求进行定制。我的 Web 项目包含数据库集成、身份验证系统以及高级后端逻辑，使我能够交付完整、可直接投入生产的解决方案，而不仅仅是前端界面。",
+        about_desc3: "我还开发 Python 应用程序，涵盖多种实际使用场景，包括自动化工具、数据处理脚本以及 Telegram 机器人。我喜欢使用 Python 构建高效的解决方案，以简化工作流程并解决现实问题。",
+        about_desc4: "我目前居住在西班牙，能够流利使用英语、俄语和西班牙语。我可以轻松地与国际团队和客户合作，并且非常重视整个开发过程中的清晰沟通。",
 
         projects_title: "精选项目",
-        proj_desc1: "支持离线同步的移动应用，界面简洁。",
-        proj_desc2: "独立游戏原型。",
-        proj_desc3: "TradingView 自动化交易策略。",
-        proj_desc4: "现代响应式网站。",
-        web_sites: "网站 • HTML, CSS, JavaScript",
+        proj_desc1: "支持离线同步并拥有简洁界面的移动应用。",
+        proj_desc11: "具备实时处理能力和简洁界面的 AR 扫描。",
+        proj_desc2: "专注玩法、逻辑清晰且代码可扩展的独立游戏。",
+        proj_desc22: "具备自动化、API 集成和可靠后端的 Telegram 机器人。",
+        proj_desc3: "用于 TradingView 的自动化交易策略。",
+        proj_desc4: "响应式且现代化的网站。",
+        web_sites: "网站 • HTML, CSS, JavaScript, SQL",
 
         tech_dist: "经验",
-        exp_desc1: "我在 2020 年开始学习编程，完成了一个 Python 游戏开发课程，并制作了我的第一个游戏 — 可以在 GitHub 下载。",
-        exp_desc2: "2021 年开始学习 Swift，并在大量实践后开发了几个应用。其中一个叫 Planner，目前仍在开发中 📱",
-        exp_desc3: "自 2022 年以来，我一直从事全栈 Web 开发，为客户和个人项目制作网站 🌍",
-        exp_desc4: "开发之外，我也活跃于交易领域，主要是外汇和金属。我为 TradingView 编写 PineScript 策略实现自动交易 📈",
+        exp_desc1: "2020 年，我完成了 Python 游戏开发课程，开始了我的编程之路，并构建了我的第一款游戏，该游戏可在我的 GitHub 上下载。",
+        exp_desc2: "2021 年，我开始学习 Swift，并在大量实践后开发了多款应用，其中一款——Planner365——目前仍在开发中。",
+        exp_desc3: "自 2022 年起，我一直担任全栈 Web 开发者，为客户以及个人项目开发网站。",
+        exp_desc4: "在开发之外，我也积极参与交易，主要涉及外汇和贵金属。我为 TradingView 设计并编写自己的 PineScript 策略，以实现交易自动化并提高盈利能力。",
 
-        exp_by_year: "按年份经验",
+        exp_by_year: "按年份划分的经验",
         skill_bars: "技能条",
-        skills_desc: "这些技能源自真实项目、问题解决以及对创建干净可靠软件的热情。我专注于编写结构化代码、学习现代技术，并每天进步，将想法转化为设计完善的数字体验。",
+        skills_desc: "这些技能源自真实项目经验、问题解决能力以及我对构建干净且可靠软件的浓厚兴趣。我专注于编写结构清晰的代码、学习现代技术，并每天不断提升自己，将想法转化为精心设计的数字化体验。",
 
-        contact_title: "联系",
-        contact_body1: "有想法吗？让我们把它变为现实。",
-        contact_body2: "我可以为你制作网站、iOS 应用，或你想到的任何项目。欢迎联系我：",
-        send: "发送"
+        contact_title: "联系我",
+        contact_body1: "有想法吗？让我们把它变成现实。",
+        contact_body2: "我可以为你创建网站、iOS 应用，或任何你想到的项目。欢迎随时联系我：",
+        send: "发送",
+
+        name: "全名",
+        email: "电子邮箱地址",
+        subj: "主题",
+        send_message: "消息",
+        message_btn: "发送消息",
+        message_sent: "感谢你的留言！我会尽快回复你。",
+        or_contact: "或者你也可以通过以下方式联系我："
+
     },
+
 
     ja: {
         title: "Vladimir Kudryashov",
