@@ -3,7 +3,7 @@ const translations = {
         title: "Vladimir Kudryashov",
         subtitle: "Full-Stack Developer — iOS, Web & Python",
 
-        hero_title: "Hi there, I'm Vladimir!",
+        hero_title: "Hi there! I'm Vladimir",
         hero_desc: "I’m a mid-level full-stack iOS, web, and Python developer, always open to new projects, collaborations, internships, and partnerships.",
 
         download_cv: "Visit my LinkedIn",
@@ -25,10 +25,10 @@ const translations = {
         web_sites: "Web Sites • HTML, CSS, JavaScript, SQL",
 
         tech_dist: "Experience",
-        exp_desc1: "Back in 2020, my programming journey began. I completed a Python game development course and built my first game — you can download and try it on my GitHub.",
-        exp_desc2: "In 2021, I started learning Swift, and after a lot of practice I built a few apps. One of them is Planner, which is still in development 📱",
-        exp_desc3: "Since 2022, I’ve been working as a fullstack web developer, creating websites for clients and for myself 🌍",
-        exp_desc4: "Alongside development, I’m actively involved in trading, mainly forex and metals. I design and code my own PineScript strategies for TradingView to automate trading and increase profitability 📈",
+        exp_desc1: "In 2020, I began my programming journey by completing a Python game development course and building my first game, which is available for download on my GitHub.",
+        exp_desc2: "In 2021, I started learning Swift and, after extensive practice, developed several apps, one of which — Planner365 is still in development",
+        exp_desc3: "Since 2022, I have been working as a full-stack web developer, building websites for both clients and personal projects.",
+        exp_desc4: "Alongside development, I’m actively involved in trading, mainly forex and metals. I design and code my own PineScript strategies for TradingView to automate trading and increase profitability.",
 
         exp_by_year: "Experience by years",
         skill_bars: "Skill bars",
